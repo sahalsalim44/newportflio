@@ -1,15 +1,17 @@
 const site_url =
-  process.env.NEXT_PUBLIC_APP_URL || "https://the-portfolio-lac.vercel.app";
+  process.env.NEXT_PUBLIC_APP_URL || "https://sahal.pro";
 
 export const siteConfig = {
-  name: "Tehseen | Full Stack Developer",
+  name: "Sahal | Full Stack Developer",
   description:
     "Personal portfolio website showcasing my projects and skills as a full stack developer",
   url: site_url,
   ogImage: `${site_url}/_static/og-image.png`,
   links: {
-    twitter: "https://twitter.com/tehseen_type",
-    github: "https://github.com/tehseen01/the-portfolio",
+    twitter: "https://twitter.com/sahal_salim",
+    github: "https://github.com/sahalsalim4",
+    linkedin: "https://www.linkedin.com/in/sahal-salim-38a0b32b9",
+    instagram: "https://instagram.com/sahal_.l_",
   },
-  mailSupport: "tehseen.type@gmail.com",
+  mailSupport: "sahalsalim04@gmail.com",
 };

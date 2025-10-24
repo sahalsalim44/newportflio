@@ -43,21 +43,53 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
     setStatus("SENDING");
 
     try {
-      console.log("Form data:", formData);
-      setTimeout(() => {
-        setStatus("DONE");
-        setFormData({
-          email: "",
-          message: "",
-          name: "",
-          subject: "",
-        });
-        setStatusText("Message sent successfully!");
-      }, 3000);
+      // Load EmailJS from CDN
+      const script = document.createElement('script');
+      script.src = 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js';
+      script.onload = async () => {
+        try {
+          // Initialize EmailJS
+          (window as any).emailjs.init("iKyAPnrKlwEkK5c4q");
+
+          // Send email using EmailJS
+          const result = await (window as any).emailjs.send(
+            "service_ervcuwf",
+            "template_tq1frwo",
+            {
+              from_name: formData.name,
+              from_email: formData.email,
+              subject: formData.subject,
+              message: formData.message,
+              sent_at: new Date().toLocaleString(),
+            }
+          );
+
+          console.log("Email sent successfully:", result);
+          
+          // Show success message
+          setStatus("DONE");
+          setFormData({
+            email: "",
+            message: "",
+            name: "",
+            subject: "",
+          });
+          setStatusText("Message sent successfully! I'll get back to you soon.");
+        } catch (error: any) {
+          console.error("Error sending email:", error);
+          setStatus("ERROR");
+          setStatusText("Failed to send message. Please try again or contact me directly.");
+        }
+      };
+      script.onerror = () => {
+        setStatus("ERROR");
+        setStatusText("Failed to load email service. Please contact me directly at sahalsalim04@gmail.com");
+      };
+      document.head.appendChild(script);
     } catch (error: any) {
+      console.error("Error loading EmailJS:", error);
       setStatus("ERROR");
-      setStatusText("Error in sending message: " + error.message);
-      console.error("Error sending message:", error.message);
+      setStatusText("Failed to load email service. Please contact me directly at sahalsalim04@gmail.com");
     }
   };
 
@@ -211,10 +243,10 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
           <p>
             developed by @
             <Link
-              href={"https://twitter.com/tehseen_type"}
+              href={"https://github.com/sahalsalim4"}
               className="hover:underline"
             >
-              tehseen
+              sahal
             </Link>
           </p>
         </Transition>

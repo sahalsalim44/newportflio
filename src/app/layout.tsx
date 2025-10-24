@@ -17,8 +17,28 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
-      <head />
-      <body className={poppins.className}>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              // Suppress hydration warnings for browser extensions
+              if (typeof window !== 'undefined') {
+                const originalError = console.error;
+                console.error = (...args) => {
+                  if (
+                    typeof args[0] === 'string' &&
+                    args[0].includes('Hydration failed')
+                  ) {
+                    return;
+                  }
+                  originalError.apply(console, args);
+                };
+              }
+            `,
+          }}
+        />
+      </head>
+      <body className={poppins.className} suppressHydrationWarning>
         <VariantProvider>{children}</VariantProvider>
       </body>
     </html>

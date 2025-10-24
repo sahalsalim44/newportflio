@@ -1,6 +1,6 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
+  "name": "sahal-salim-portfolio",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--inspect' next dev",

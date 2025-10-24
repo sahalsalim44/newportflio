@@ -1,10 +1,10 @@
-# Portfolio Project
+# SAHAL SALIM - Portfolio Website
 
-![Modern Portfolio Website](https://github.com/user-attachments/assets/4f82669c-9a5a-4761-a927-2f54f0f64169)
+![Sahal Salim Portfolio Website](https://github.com/user-attachments/assets/4f82669c-9a5a-4761-a927-2f54f0f64169)
 
 ## Overview
 
-This project is a portfolio website template showcasing skills, projects, and experience. It is built using modern web technologies and follows best practices for performance and accessibility.
+This is the personal portfolio website of Sahal Salim, a Software Engineer specializing in full-stack development. The website showcases skills, projects, experience, and professional achievements. Built using modern web technologies and following best practices for performance and accessibility.
 
 ## ✨ Features
 
@@ -21,6 +21,7 @@ This project is a portfolio website template showcasing skills, projects, and ex
 - **Type Safety**: TypeScript
 - **Styling**: Tailwind CSS
 - **Animations**: Framer Motion
+- **Backend Technologies**: Java, Spring Boot, MySQL
 - **Code Quality**: ESLint & Prettier
 
 ## 📁 Project Structure
@@ -84,7 +85,7 @@ This project is a portfolio website template showcasing skills, projects, and ex
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/tehseen01/the-portfolio.git
+   git clone https://github.com/sahalsalim4/the-portfolio.git
    ```
 
 2. Navigate to the project directory:
@@ -130,12 +131,26 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-For questions or feedback, reach out through:
+For questions, collaboration, or feedback, reach out through:
 
-- Email: tehseen.type@gmail.com
-- Twitter: [@tehseen_type](https://twitter.com/tehseen_type)
-- LinkedIn: [Mohd Tehseen](https://linkedin.com/in/tehseen.01)
+- **Email**: sahalsalim04@gmail.com
+- **Phone**: +918111812051
+- **Location**: Kollam, Kerala, India
+- **LinkedIn**: [Sahal Salim](https://www.linkedin.com/in/sahal-salim-38a0b32b9)
+- **GitHub**: [Sahal Salim](https://github.com/sahalsalim4)
+- **Instagram**: [@sahal_.l_](https://instagram.com/sahal_.l_)
 
 ---
 
-Built with ❤️ by [Mohd Tehseen]
+## About Sahal Salim
+
+Sahal Salim is a Software Engineer with expertise in full-stack development using Java, Spring Boot, React.js, and MySQL. Currently working at IT SOUQ LLP, he has a strong foundation in building scalable applications and is passionate about creating efficient solutions for real-world problems.
+
+### Key Skills:
+- **Backend**: Java, Spring Boot, Hibernate, RESTful APIs
+- **Frontend**: React.js, JavaScript, HTML5, CSS3, Bootstrap, Tailwind CSS
+- **Database**: MySQL, SQL
+- **Tools**: Git & GitHub, Postman, Maven, IntelliJ IDEA, VS Code, Android Studio
+- **Other**: Python, Android Development
+
+Built with ❤️ by [Sahal Salim]

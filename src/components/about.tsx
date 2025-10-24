@@ -16,7 +16,7 @@ const About = ({ about, timeline }: AboutProps) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const education = timeline
-    .filter((line) => line.forEducation && line.enabled === true)
+    .filter((line) => line.enabled === true)
     .sort((a, b) => a.sequence - b.sequence);
 
   return (
@@ -128,9 +128,10 @@ const TimelineCard = ({
           </span>
           {" - "}
           <span className="italic">
-            {formatDate(timeline.endDate).month +
-              ", " +
-              formatDate(timeline.endDate).year}
+            {timeline.endDate 
+              ? formatDate(timeline.endDate).month + ", " + formatDate(timeline.endDate).year
+              : "Present"
+            }
           </span>
         </div>
       </div>

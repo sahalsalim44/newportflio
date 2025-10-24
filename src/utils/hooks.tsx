@@ -47,8 +47,16 @@ function useMediaQuery(query: string, options?: MediaQueryOptions): boolean {
   const [matches, setMatches] = useState<boolean>(
     options?.defaultValue ?? false
   );
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    // Check if we're on the client side and component is mounted
+    if (typeof window === "undefined" || !mounted) return;
+
     const media = window.matchMedia(query);
     const listener = () => setMatches(media.matches);
 
@@ -56,10 +64,15 @@ function useMediaQuery(query: string, options?: MediaQueryOptions): boolean {
       setMatches(media.matches); // Initialize with initial state
     }
 
-    window.addEventListener("resize", listener);
+    media.addEventListener("change", listener);
 
-    return () => window.removeEventListener("resize", listener);
-  }, [query, options]);
+    return () => media.removeEventListener("change", listener);
+  }, [query, options, mounted]);
+
+  // Return defaultValue during SSR and before hydration
+  if (!mounted) {
+    return options?.defaultValue ?? false;
+  }
 
   return matches;
 }

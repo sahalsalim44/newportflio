@@ -10,14 +10,12 @@ interface HoverImageProps {
   heading: string;
   imgSrc: string;
   subheading: string;
-  price: string;
 }
 
 export const HoverImage = ({
   heading,
   imgSrc,
   subheading,
-  price,
 }: HoverImageProps) => {
   const ref = useRef<HTMLAnchorElement | null>(null);
 
@@ -64,9 +62,6 @@ export const HoverImage = ({
           <h4 className="relative z-10 block text-2xl sm:text-4xl font-semibold md:font-bold md:text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50 md:text-6xl tracking-tighter">
             {heading}
           </h4>
-          <span className="md:text-2xl text-foreground/50 md:hidden">
-            {price}
-          </span>
         </div>
         <p className="relative z-10 mt-2 block md:text-base text-sm text-foreground/50 transition-colors duration-500 group-hover:text-neutral-50 pt-2">
           {subheading}
@@ -104,7 +99,6 @@ export const HoverImage = ({
         transition={{ type: "spring" }}
         className="z-10 md:p-4 grid justify-items-end gap-2 max-md:hidden"
       >
-        <span className="md:text-2xl text-neutral-50 pr-1">{price}</span>
         <div className="border border-white/50 rounded-full py-2 px-4 text-white">
           <TextReveal>Discuss the project</TextReveal>
         </div>
