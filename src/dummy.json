@@ -346,7 +346,7 @@
         "public_id": "billsouq.png",
         "url": "/billsouq.png"
       },
-      "description": "Developed a comprehensive billing and inventory management solution for IT SOUQ LLP with GST compliance, multi-printer support, and complete business analytics. Features include sales & purchase management, inventory tracking, detailed reports, and hardware integration with POS systems, barcode scanners, and thermal printers.",
+      "description": "BillSouq is a comprehensive business management software designed for small to medium enterprises. Built with Electron framework, it provides complete GST-compliant billing, inventory management, and business analytics. The application features multi-printer support, barcode scanning, POS integration, and generates detailed business reports including profit/loss statements, tax reports, and inventory analytics. It streamlines business operations with automated invoice generation, customer management, and real-time inventory tracking.",
       "techStack": ["Electron", "JavaScript", "HTML5", "CSS3", "Node.js", "SQLite", "GST Integration", "POS Systems"],
       "_id": "65b3d9c8d017f6b49c778ca7",
       "enabled": true
@@ -360,7 +360,7 @@
         "public_id": "mobilecrm.png",
         "url": "/mobilecrm.png"
       },
-      "description": "Developed a comprehensive Customer Relationship Management mobile application for IT SOUQ LLP with client tracking, lead management, and sales pipeline features. Built with modern mobile technologies, featuring offline capabilities, real-time synchronization, and intuitive user interface for field sales teams.",
+      "description": "A powerful mobile CRM application built with React Native for field sales teams and business development professionals. The app provides comprehensive client management, lead tracking, and sales pipeline visualization. Key features include offline data synchronization, real-time notifications, GPS-based client location tracking, and seamless integration with backend systems. The intuitive interface allows sales teams to manage contacts, schedule meetings, track deals, and generate reports on-the-go, significantly improving sales productivity and customer relationship management.",
       "techStack": ["React Native", "JavaScript", "Node.js", "SQLite", "REST APIs", "Offline Sync", "Push Notifications"],
       "_id": "65b3d99dd017f6b49c778c86",
       "enabled": true
@@ -374,7 +374,7 @@
         "public_id": "crm-manufacture.png",
         "url": "/crm-manufacture.png"
       },
-      "description": "Developed a comprehensive web-based CRM system specifically designed for manufacturing industries with production tracking, quality control, supplier management, and inventory optimization. Features include real-time production monitoring, quality assurance workflows, and integrated reporting for manufacturing operations.",
+      "description": "A specialized web-based CRM system tailored for manufacturing industries, built with React.js frontend and Spring Boot backend. The application manages the complete manufacturing lifecycle from raw material procurement to finished product delivery. Key features include production scheduling, quality control workflows, supplier relationship management, inventory optimization, and real-time production monitoring. The system provides comprehensive analytics for production efficiency, quality metrics, and supply chain optimization, helping manufacturers streamline operations and improve productivity.",
       "techStack": ["React.js", "Spring Boot", "MySQL", "Java", "REST APIs", "Real-time Updates", "Manufacturing Analytics"],
       "_id": "65b3d99dd017f6b49c778c86-hospital",
       "enabled": true
@@ -388,7 +388,7 @@
         "public_id": "itsouqcrm.png",
         "url": "/itsouqcrm.png"
       },
-      "description": "Designed and developed the official corporate website for IT SOUQ LLP featuring product showcases, service portfolios, and company information. Built with modern web technologies, responsive design, and optimized performance for showcasing IT solutions, CCTV systems, and billing software products.",
+      "description": "The official corporate website for IT SOUQ LLP, a leading IT solutions provider in Kerala. Built with Next.js and React.js, the website showcases the company's comprehensive range of services including CCTV systems, computer peripherals, billing solutions, and IT services. The site features a modern, responsive design with optimized performance, interactive product galleries, service portfolios, and seamless user experience. Key sections include company overview, product catalogs, service descriptions, client testimonials, and contact information, effectively representing IT SOUQ's brand and capabilities in the competitive IT market.",
       "techStack": ["React.js", "Next.js", "Tailwind CSS", "JavaScript", "Responsive Design", "SEO Optimization"],
       "_id": "65b3d978d017f6b49c778c67",
       "enabled": true
@@ -402,7 +402,7 @@
         "public_id": "khairinnocation.png",
         "url": "/khairinnocation.png"
       },
-      "description": "Developed a professional website for Khair Innovation showcasing their services and portfolio. Built with modern web technologies featuring responsive design, interactive elements, and optimized user experience for presenting innovation solutions and company capabilities.",
+      "description": "A professional corporate website for Khair Innovation, designed to showcase their innovative solutions and technological capabilities. Built with Next.js and React.js, the website features a clean, modern design with responsive layouts and interactive elements. The site effectively presents Khair Innovation's portfolio of services, case studies, and technological expertise. Key features include animated sections, smooth scrolling, optimized performance, and mobile-first design approach. The website serves as a digital showcase for the company's innovation-driven approach and technical capabilities, helping establish their presence in the competitive technology market.",
       "techStack": ["React.js", "Next.js", "Tailwind CSS", "JavaScript", "Responsive Design", "Performance Optimization"],
       "_id": "65b3d969d017f6b49c778c4a",
       "enabled": true
