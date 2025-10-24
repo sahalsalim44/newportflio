@@ -1,6 +1,6 @@
 # SAHAL SALIM - Portfolio Website
 
-![Sahal Salim Portfolio Website](https://github.com/user-attachments/assets/4f82669c-9a5a-4761-a927-2f54f0f64169)
+![Sahal Salim Portfolio Website]()
 
 ## Overview
 
