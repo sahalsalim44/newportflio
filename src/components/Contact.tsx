@@ -243,7 +243,7 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
           <p>
             developed by @
             <Link
-              href={"https://github.com/sahalsalim4"}
+              href={"https://github.com/sahalsalim44"}
               className="hover:underline"
             >
               sahal

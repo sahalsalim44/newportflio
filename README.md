@@ -85,7 +85,7 @@ This is the personal portfolio website of Sahal Salim, a Software Engineer speci
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/sahalsalim4/the-portfolio.git
+   git clone https://github.com/sahalsalim44/the-portfolio.git
    ```
 
 2. Navigate to the project directory:
@@ -137,7 +137,7 @@ For questions, collaboration, or feedback, reach out through:
 - **Phone**: +918111812051
 - **Location**: Kollam, Kerala, India
 - **LinkedIn**: [Sahal Salim](https://www.linkedin.com/in/sahal-salim-38a0b32b9)
-- **GitHub**: [Sahal Salim](https://github.com/sahalsalim4)
+- **GitHub**: [Sahal Salim](https://github.com/sahalsalim44)
 - **Instagram**: [@sahal_.l_](https://instagram.com/sahal_.l_)
 
 ---

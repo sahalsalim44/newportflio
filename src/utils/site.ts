@@ -9,7 +9,7 @@ export const siteConfig = {
   ogImage: `${site_url}/_static/og-image.png`,
   links: {
     twitter: "https://twitter.com/sahal_salim",
-    github: "https://github.com/sahalsalim4",
+    github: "https://github.com/sahalsalim44",
     linkedin: "https://www.linkedin.com/in/sahal-salim-38a0b32b9",
     instagram: "https://instagram.com/sahal_.l_",
   },
